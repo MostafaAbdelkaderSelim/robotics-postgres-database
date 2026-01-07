@@ -1,0 +1,23 @@
+# General
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# Docker volumes
+/db_data/
+
+# Build/Dist
+.dist/
+
+# Node (if present)
+node_modules/
