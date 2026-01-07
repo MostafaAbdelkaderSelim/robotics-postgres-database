@@ -1,0 +1,9 @@
+* text=auto
+
+# Enforce LF endings for cross-platform consistency
+*.sql   text eol=lf
+*.psql  text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+*.md    text eol=lf
+*.svg   text eol=lf

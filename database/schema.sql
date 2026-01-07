@@ -1,0 +1,14 @@
+-- Modular database schema files
+-- This monolithic schema has been split into organized modules for easier understanding and maintenance.
+-- Execute in order using your SQL client (psql recommended):
+--  1) 01_extensions.sql
+--  2) 10_core.sql
+--  3) 20_sales.sql
+--  4) 30_manufacturing_structure.sql
+--  5) 31_manufacturing_execution.sql
+--  6) 32_manufacturing_maintenance.sql
+--  7) 33_manufacturing_telemetry.sql
+--  8) 40_views.sql
+--  9) 50_triggers.sql
+-- 10) 60_indexes.sql
+-- Note: The order ensures dependencies (tables before views/triggers, views before triggers, then indexes).
